@@ -37,6 +37,12 @@
             </activation>
         </profile>
         <profile>
+            <id>vps</id>
+            <properties>
+                <env>vps</env>
+            </properties>
+        </profile>
+        <profile>
             <id>real</id>
             <properties>
                 <env>real</env>
