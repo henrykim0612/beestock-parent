@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.beestock</groupId>
-    <artifactId>beestock-parent-dev</artifactId>
+    <artifactId>beestock-parent</artifactId>
     <version>1.0.0</version>
     <!-- <modules>
          <module>../beestock-web</module>
@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <deploy-version>DEV</deploy-version>
+        <deploy-version>REAL</deploy-version>
         <java-version>1.8</java-version>
         <org.springframework-version>5.2.3.RELEASE</org.springframework-version>
         <org.springframework.spring-webmvc-version>5.2.3.RELEASE</org.springframework.spring-webmvc-version>
@@ -32,9 +32,6 @@
             <properties>
                 <env>dev</env>
             </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
         </profile>
         <profile>
             <id>vps</id>
@@ -47,6 +44,9 @@
             <properties>
                 <env>real</env>
             </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
         </profile>
     </profiles>
 
