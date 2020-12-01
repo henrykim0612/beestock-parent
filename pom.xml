@@ -6,7 +6,7 @@
 
     <groupId>com.beestock</groupId>
     <artifactId>beestock-parent-dev</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <!-- <modules>
          <module>../beestock-web</module>
      </modules>-->
