@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.beestock</groupId>
     <artifactId>beestock-parent-dev</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <!-- <modules>
          <module>../beestock-web</module>
      </modules>-->
