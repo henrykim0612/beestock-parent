@@ -6,7 +6,7 @@
 
     <groupId>com.beestock</groupId>
     <artifactId>beestock-parent</artifactId>
-    <version>1.0.9</version>
+    <version>1.1.1</version>
     <!-- <modules>
          <module>../beestock-web</module>
      </modules>-->
@@ -34,6 +34,7 @@
         <common-io-version>2.8.0</common-io-version>
         <javax-mail-version>1.4.7</javax-mail-version>
         <javax-mail-api-version>1.6.2</javax-mail-api-version>
+        <java-uuid-generator>4.0.1</java-uuid-generator>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
